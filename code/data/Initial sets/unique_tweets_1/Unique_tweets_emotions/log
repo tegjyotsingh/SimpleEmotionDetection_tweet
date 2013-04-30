@@ -1,0 +1,2 @@
+sort -u Positive_#happy  >mourn
+tegjyot@tegjyot-ThinkPad-T42 ~/Desktop/data $ wc -l mourn

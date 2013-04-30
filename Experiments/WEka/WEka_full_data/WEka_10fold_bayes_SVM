@@ -1,0 +1,59 @@
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       18964               62.7989 %
+Incorrectly Classified Instances     11234               37.2011 %
+Kappa statistic                          0.2577
+Mean absolute error                      0.372 
+Root mean squared error                  0.6085
+Relative absolute error                 74.4068 %
+Root relative squared error            121.695  %
+Coverage of cases (0.95 level)          63.3155 %
+Mean rel. region size (0.95 level)      50.5315 %
+Total Number of Instances            30198     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.319    0.061    0.841      0.319    0.463      0.329    0.781     0.759     Neg
+                 0.939    0.681    0.578      0.939    0.715      0.329    0.779     0.750     Pos
+Weighted Avg.    0.628    0.370    0.710      0.628    0.589      0.329    0.780     0.754     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  4839 10317 |     a = Neg
+   917 14125 |     b = Pos
+
+
+SVM
+Time taken to build model: 445.21 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       23552               77.9919 %
+Incorrectly Classified Instances      6646               22.0081 %
+Kappa statistic                          0.5597
+Mean absolute error                      0.2201
+Root mean squared error                  0.4691
+Relative absolute error                 44.0168 %
+Root relative squared error             93.8262 %
+Coverage of cases (0.95 level)          77.9919 %
+Mean rel. region size (0.95 level)      50      %
+Total Number of Instances            30198     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.814    0.254    0.763      0.814    0.788      0.561    0.780     0.715     Neg
+                 0.746    0.186    0.799      0.746    0.771      0.561    0.780     0.723     Pos
+Weighted Avg.    0.780    0.220    0.781      0.780    0.780      0.561    0.780     0.719     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 12336  2820 |     a = Neg
+  3826 11216 |     b = Pos
+

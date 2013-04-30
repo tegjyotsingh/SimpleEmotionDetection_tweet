@@ -1,0 +1,97 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -R -N 3 -Q 1 -M 5
+Relation:     sample_10-weka.filters.unsupervised.attribute.NominalToString-C1-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-T-N1-S-stemmerweka.core.stemmers.SnowballStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"
+Instances:    3774
+Attributes:   169
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+smile <= 0
+|   negemoti <= 0
+|   |   posemoti <= 0
+|   |   |   birthday <= 0
+|   |   |   |   finally <= 0
+|   |   |   |   |   bad <= 0.286895
+|   |   |   |   |   |   beautiful <= 0
+|   |   |   |   |   |   |   love <= 0
+|   |   |   |   |   |   |   |   great <= 0
+|   |   |   |   |   |   |   |   |   dont <= 0.331278
+|   |   |   |   |   |   |   |   |   |   sad <= 0
+|   |   |   |   |   |   |   |   |   |   |   feel <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   morning <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   happy <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   good <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   tomorrow <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   weather <= 0.405731
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   life <= 0.362897
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   bed <= 0: Neg (1543.0/698.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   bed > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   bed <= 0.468498
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   bed <= 0.405731: Pos (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   bed > 0.405731: Neg (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   bed > 0.468498: Pos (19.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   life > 0.362897: Neg (40.0/12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   weather > 0.405731: Neg (26.0/7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   tomorrow > 0: Pos (31.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   good > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   mood <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   day <= 0.405731
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   im <= 0: Pos (29.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   im > 0: Neg (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   day > 0.405731: Pos (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   mood > 0: Pos (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   happy > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   day <= 0: Pos (46.0/13.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   day > 0: Neg (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   morning > 0: Pos (36.0/9.0)
+|   |   |   |   |   |   |   |   |   |   |   feel > 0: Neg (34.0/6.0)
+|   |   |   |   |   |   |   |   |   |   sad > 0: Neg (32.0/5.0)
+|   |   |   |   |   |   |   |   |   dont > 0.331278: Neg (55.0/7.0)
+|   |   |   |   |   |   |   |   great > 0: Pos (27.0/3.0)
+|   |   |   |   |   |   |   love > 0: Pos (150.0/30.0)
+|   |   |   |   |   |   beautiful > 0: Pos (25.0/3.0)
+|   |   |   |   |   bad > 0.286895: Neg (25.0/1.0)
+|   |   |   |   finally > 0: Pos (25.0/2.0)
+|   |   |   birthday > 0: Pos (32.0/2.0)
+|   |   posemoti > 0: Pos (130.0/8.0)
+|   negemoti > 0: Neg (107.0/5.0)
+smile > 0: Pos (71.0/1.0)
+
+Number of Leaves  : 	26
+
+Size of the tree : 	51
+
+
+Time taken to build model: 4.53 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2405               63.7255 %
+Incorrectly Classified Instances      1369               36.2745 %
+Kappa statistic                          0.2821
+Mean absolute error                      0.4092
+Root mean squared error                  0.456 
+Relative absolute error                 81.8839 %
+Root relative squared error             91.2104 %
+Total Number of Instances             3774     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.901     0.616      0.584     0.901     0.709      0.704    Neg
+                 0.384     0.099      0.802     0.384     0.519      0.704    Pos
+Weighted Avg.    0.637     0.352      0.695     0.637     0.612      0.704
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1665  183 |    a = Neg
+ 1186  740 |    b = Pos
+

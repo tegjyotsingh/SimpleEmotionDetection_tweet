@@ -1,0 +1,982 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     Weka_compatible-weka.filters.supervised.instance.Resample-B1.0-S1-Z10.0-weka.filters.unsupervised.attribute.NominalToString-C1-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-T-I-N1-S-stemmerweka.core.stemmers.SnowballStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.ClassAssigner-Clast-weka.filters.unsupervised.attribute.Copy-R1-weka.filters.unsupervised.attribute.Remove-R1_principal components-weka.filters.unsupervised.attribute.PrincipalComponents-R0.95-A5-M-1
+Instances:    3774
+Attributes:   157
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                                                       Class
+Attribute                                                                Neg     Pos
+                                                                      (0.49)  (0.51)
+=====================================================================================
+0.282smile+0.254love+0.249cute+0.22 girl+0.191fun...
+  mean                                                                -0.5307    0.51
+  std. dev.                                                             0.975  1.3131
+  weight sum                                                             1848    1926
+  precision                                                            0.0058  0.0058
+
+-0.342texas-0.298boston+0.267weather+0.265mood+0.209good...
+  mean                                                                -0.2069  0.1997
+  std. dev.                                                            1.4489   0.949
+  weight sum                                                             1848    1926
+  precision                                                            0.0079  0.0079
+
+0.366texas+0.288boston+0.235explosion+0.215blessed-0.203dont...
+  mean                                                                -0.2105  0.2017
+  std. dev.                                                            1.3794  0.9888
+  weight sum                                                             1848    1926
+  precision                                                            0.0065  0.0065
+
+-0.412thankful-0.378blessed-0.323things-0.268care-0.151life...
+  mean                                                                -0.0718  0.0696
+  std. dev.                                                            0.9855   1.371
+  weight sum                                                             1848    1926
+  precision                                                            0.0087  0.0087
+
+-0.288weather-0.252mood+0.239friday+0.238tomorrow-0.205funny...
+  mean                                                                -0.1487  0.1425
+  std. dev.                                                             1.089  1.2512
+  weight sum                                                             1848    1926
+  precision                                                            0.0067  0.0067
+
+0.373broken+0.365heart-0.241wont-0.206killed+0.189negemoti...
+  mean                                                                 0.0683 -0.0661
+  std. dev.                                                            1.4189  0.8758
+  weight sum                                                             1848    1926
+  precision                                                            0.0088  0.0088
+
+0.315weather+0.303wont+0.28 killed+0.233gonna+0.229hot...
+  mean                                                                 0.0861 -0.0823
+  std. dev.                                                            1.2014  1.1358
+  weight sum                                                             1848    1926
+  precision                                                             0.006   0.006
+
+0.318wont+0.277killed-0.215girl+0.187forever+0.162heart...
+  mean                                                                  -0.09  0.0874
+  std. dev.                                                            1.2353  1.0788
+  weight sum                                                             1848    1926
+  precision                                                            0.0071  0.0071
+
+0.325killed+0.322wont-0.206hot-0.177night-0.164bed...
+  mean                                                                 0.0537  -0.051
+  std. dev.                                                            1.1925  1.1179
+  weight sum                                                             1848    1926
+  precision                                                            0.0079  0.0079
+
+0.265party+0.259tomorrow+0.247friday-0.215smile+0.21 funny...
+  mean                                                                -0.0103  0.0094
+  std. dev.                                                            0.9856  1.2912
+  weight sum                                                             1848    1926
+  precision                                                            0.0059  0.0059
+
+-0.193heart+0.188news+0.18 sun+0.165live-0.163lost...
+  mean                                                                -0.0011  0.0016
+  std. dev.                                                            1.0964  1.1888
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+0.257wait+0.238summer+0.212broken+0.207news+0.193heart...
+  mean                                                                 0.0325 -0.0317
+  std. dev.                                                            1.1261  1.1565
+  weight sum                                                             1848    1926
+  precision                                                            0.0066  0.0066
+
+-0.229maths+0.229bored+0.22 sad+0.212lonely+0.205school...
+  mean                                                                  0.119  -0.114
+  std. dev.                                                            1.1343  1.1224
+  weight sum                                                             1848    1926
+  precision                                                            0.0064  0.0064
+
+0.2  playing-0.194night+0.19 heart-0.182lonely-0.179im...
+  mean                                                                 -0.059  0.0576
+  std. dev.                                                            1.1759  1.0775
+  weight sum                                                             1848    1926
+  precision                                                             0.006   0.006
+
+0.271feeling-0.254sad-0.239make-0.224feel-0.191people...
+  mean                                                                      0 -0.0007
+  std. dev.                                                            1.2913  0.9429
+  weight sum                                                             1848    1926
+  precision                                                            0.0052  0.0052
+
+-0.223birthday-0.212baby-0.2party+0.193talk+0.178long...
+  mean                                                                 -0.023  0.0222
+  std. dev.                                                            1.1477  1.1033
+  weight sum                                                             1848    1926
+  precision                                                            0.0057  0.0057
+
+0.336ppl+0.272ur-0.227anymore-0.203year+0.19 twitter...
+  mean                                                                -0.0023  0.0009
+  std. dev.                                                            1.3269  0.8869
+  weight sum                                                             1848    1926
+  precision                                                            0.0083  0.0083
+
+0.196wanna+0.183mood-0.161feeling+0.155shit-0.152gonna...
+  mean                                                                 0.0482 -0.0471
+  std. dev.                                                            1.2246  1.0105
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+-0.219guys+0.212talk-0.205news-0.196ass+0.191person...
+  mean                                                                 0.0148 -0.0145
+  std. dev.                                                            1.2086  1.0167
+  weight sum                                                             1848    1926
+  precision                                                            0.0057  0.0057
+
+-0.197boyfriend-0.177bed+0.171twitter-0.167youre+0.166today...
+  mean                                                                 0.0373 -0.0364
+  std. dev.                                                            1.1192  1.1074
+  weight sum                                                             1848    1926
+  precision                                                            0.0051  0.0051
+
+-0.279proud-0.247maths-0.215lost+0.178room+0.163time...
+  mean                                                                 0.0584 -0.0553
+  std. dev.                                                            1.0943  1.1275
+  weight sum                                                             1848    1926
+  precision                                                             0.006   0.006
+
+0.229thursday+0.223hot-0.22great-0.19sun-0.177happen...
+  mean                                                                -0.0414  0.0391
+  std. dev.                                                            1.0296  1.1784
+  weight sum                                                             1848    1926
+  precision                                                            0.0064  0.0064
+
+0.237girls+0.229doesnt+0.174cute-0.171maths-0.169proud...
+  mean                                                                -0.0322  0.0302
+  std. dev.                                                            1.0518  1.1581
+  weight sum                                                             1848    1926
+  precision                                                            0.0057  0.0057
+
+0.187world+0.168baby+0.165wrong-0.162room+0.16 girl...
+  mean                                                                -0.0199  0.0187
+  std. dev.                                                            1.1121  1.0951
+  weight sum                                                             1848    1926
+  precision                                                            0.0048  0.0048
+
+0.254watching+0.218bad-0.208tonight+0.176family+0.16 phone...
+  mean                                                                -0.0075  0.0078
+  std. dev.                                                            1.1375  1.0639
+  weight sum                                                             1848    1926
+  precision                                                             0.005   0.005
+
+-0.235bored+0.202photo-0.182tweet+0.168hope+0.168moment...
+  mean                                                                -0.0196  0.0179
+  std. dev.                                                            1.0463  1.1467
+  weight sum                                                             1848    1926
+  precision                                                            0.0061  0.0061
+
+0.271sick+0.238hurt+0.195crying-0.182enjoy+0.174smiling...
+  mean                                                                 0.0056 -0.0066
+  std. dev.                                                            1.1381  1.0501
+  weight sum                                                             1848    1926
+  precision                                                            0.0063  0.0063
+
+-0.246amazing+0.237crazy+0.234hair+0.166guys-0.163school...
+  mean                                                                -0.0316  0.0293
+  std. dev.                                                            1.0511  1.1297
+  weight sum                                                             1848    1926
+  precision                                                            0.0059  0.0059
+
+-0.238tonight-0.21smh-0.18sick-0.169sleep+0.166thing...
+  mean                                                                 0.0722 -0.0696
+  std. dev.                                                            1.2161  0.9494
+  weight sum                                                             1848    1926
+  precision                                                            0.0063  0.0063
+
+0.196lovely-0.185love-0.154live+0.153show+0.151big...
+  mean                                                                 0.0143 -0.0146
+  std. dev.                                                            1.1387  1.0391
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+-0.258lot-0.19instagood+0.169big+0.163crazy+0.159cool...
+  mean                                                                -0.0086  0.0077
+  std. dev.                                                            1.1287   1.043
+  weight sum                                                             1848    1926
+  precision                                                            0.0057  0.0057
+
+0.237show+0.196care-0.193bed+0.185give+0.181time...
+  mean                                                                -0.0054  0.0041
+  std. dev.                                                            1.1117  1.0584
+  weight sum                                                             1848    1926
+  precision                                                             0.005   0.005
+
+-0.272work+0.214live-0.209phone-0.175hair-0.168dead...
+  mean                                                                -0.0119  0.0115
+  std. dev.                                                            1.0991  1.0664
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+0.231face+0.197yay-0.192shit+0.191gonna-0.186ass...
+  mean                                                                -0.0382  0.0372
+  std. dev.                                                            1.0546  1.1055
+  weight sum                                                             1848    1926
+  precision                                                            0.0055  0.0055
+
+-0.208lol-0.202pain+0.193ppl-0.185live-0.183back...
+  mean                                                                -0.0317  0.0306
+  std. dev.                                                             1.142  1.0131
+  weight sum                                                             1848    1926
+  precision                                                            0.0054  0.0054
+
+0.249omg-0.23hope-0.201lost+0.197party-0.191years...
+  mean                                                                 0.0218 -0.0215
+  std. dev.                                                            1.1055  1.0463
+  weight sum                                                             1848    1926
+  precision                                                            0.0051  0.0051
+
+0.259guys-0.229morning+0.222doesnt+0.2  girls+0.179great...
+  mean                                                                -0.0101  0.0092
+  std. dev.                                                            1.0612  1.0877
+  weight sum                                                             1848    1926
+  precision                                                            0.0057  0.0057
+
+0.213sunshine-0.197peace+0.197pain-0.165miss+0.154happiness...
+  mean                                                                -0.0309  0.0285
+  std. dev.                                                            1.0501  1.0892
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+-0.194home+0.194crying+0.192person+0.171doesnt+0.17 havent...
+  mean                                                                -0.0364  0.0352
+  std. dev.                                                            1.0787  1.0596
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+-0.26enjoy-0.19lovely+0.183phone-0.172nice-0.163ass...
+  mean                                                                 0.0876 -0.0851
+  std. dev.                                                            1.0615  1.0673
+  weight sum                                                             1848    1926
+  precision                                                            0.0055  0.0055
+
+0.297food+0.191dead-0.189hair-0.188makes-0.187make...
+  mean                                                                -0.0256   0.025
+  std. dev.                                                            1.1088  1.0196
+  weight sum                                                             1848    1926
+  precision                                                            0.0053  0.0053
+
+0.207worst+0.189bed-0.18work+0.179face-0.178enjoy...
+  mean                                                                 0.0208 -0.0209
+  std. dev.                                                            1.0594   1.066
+  weight sum                                                             1848    1926
+  precision                                                            0.0052  0.0052
+
+0.252im+0.183pain-0.175crying-0.174night-0.16true...
+  mean                                                                 0.0031 -0.0037
+  std. dev.                                                            1.1151  1.0087
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+-0.204week-0.184tired-0.184enjoy+0.182hot-0.18blessed...
+  mean                                                                -0.0228  0.0221
+  std. dev.                                                            0.9773  1.1356
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+0.252made-0.219holiday+0.196hate-0.18amazing+0.172omg...
+  mean                                                                 0.0185  -0.018
+  std. dev.                                                            0.9853  1.1265
+  weight sum                                                             1848    1926
+  precision                                                             0.005   0.005
+
+0.262smiles+0.238spring-0.194make-0.191days+0.183sunshine...
+  mean                                                                 0.0366 -0.0341
+  std. dev.                                                            0.9365  1.1618
+  weight sum                                                             1848    1926
+  precision                                                            0.0055  0.0055
+
+0.21 made+0.199phone-0.194lol+0.194birthday-0.182forever...
+  mean                                                                 0.0557 -0.0541
+  std. dev.                                                            1.0735  1.0328
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+0.241awesome-0.23night+0.21 ill-0.206thing+0.195beautiful...
+  mean                                                                  -0.02  0.0189
+  std. dev.                                                            1.0575    1.05
+  weight sum                                                             1848    1926
+  precision                                                            0.0052  0.0052
+
+0.232wow+0.186thursday-0.176depressed-0.171yay+0.159friends...
+  mean                                                                 0.0248  -0.024
+  std. dev.                                                            1.0994  1.0053
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+0.228wow-0.22girls-0.2tweet-0.188friends+0.182negemoti...
+  mean                                                                 0.0647 -0.0614
+  std. dev.                                                            1.0419  1.0523
+  weight sum                                                             1848    1926
+  precision                                                            0.0046  0.0046
+
+0.235lot-0.231finally-0.205night-0.204friend-0.173moment...
+  mean                                                                  0.062 -0.0595
+  std. dev.                                                            1.0161  1.0746
+  weight sum                                                             1848    1926
+  precision                                                            0.0054  0.0054
+
+0.253watch-0.221boyfriend+0.175friend+0.17 make-0.164ill...
+  mean                                                                -0.0569  0.0542
+  std. dev.                                                            1.0237  1.0672
+  weight sum                                                             1848    1926
+  precision                                                            0.0044  0.0044
+
+-0.225pain+0.218give-0.196ive-0.193thing-0.191lovely...
+  mean                                                                 0.0234 -0.0228
+  std. dev.                                                            1.0968  0.9917
+  weight sum                                                             1848    1926
+  precision                                                            0.0054  0.0054
+
+0.258god-0.206dead-0.174fact-0.17photo+0.163wait...
+  mean                                                                -0.0246  0.0239
+  std. dev.                                                            1.0493  1.0354
+  weight sum                                                             1848    1926
+  precision                                                             0.005   0.005
+
+0.304food+0.284sweet-0.215miss+0.187made+0.174house...
+  mean                                                                -0.0117  0.0121
+  std. dev.                                                            1.0217  1.0593
+  weight sum                                                             1848    1926
+  precision                                                             0.006   0.006
+
+-0.231feel+0.227havent+0.205spring+0.191home+0.184explosion...
+  mean                                                                -0.0054  0.0055
+  std. dev.                                                            1.0642  1.0147
+  weight sum                                                             1848    1926
+  precision                                                            0.0048  0.0048
+
+-0.239excited-0.218early+0.207day+0.176big-0.173happy...
+  mean                                                                 0.0151 -0.0146
+  std. dev.                                                            0.9874  1.0835
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+-0.239depressed-0.212wrong+0.193summer+0.188house+0.178people...
+  mean                                                                 0.0168 -0.0163
+  std. dev.                                                            1.0697  1.0012
+  weight sum                                                             1848    1926
+  precision                                                            0.0051  0.0051
+
+-0.224tea-0.223face+0.216bored-0.214smiling+0.177watching...
+  mean                                                                 0.0219 -0.0199
+  std. dev.                                                            1.0032  1.0647
+  weight sum                                                             1848    1926
+  precision                                                            0.0058  0.0058
+
+-0.224shit-0.195house-0.19beautiful-0.178nice+0.176depressed...
+  mean                                                                 0.0647 -0.0623
+  std. dev.                                                            1.0726  0.9904
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+-0.245sunshine-0.218true-0.194peace+0.174amazing-0.173time...
+  mean                                                                 0.0071 -0.0063
+  std. dev.                                                            0.9745  1.0804
+  weight sum                                                             1848    1926
+  precision                                                            0.0054  0.0054
+
+-0.231cry+0.227back-0.2boyfriend+0.197makes+0.181didnt...
+  mean                                                                -0.0035  0.0033
+  std. dev.                                                            1.0509  1.0052
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+-0.227cool-0.225dead-0.181angry+0.172doesnt+0.169negemoti...
+  mean                                                                -0.0122  0.0114
+  std. dev.                                                            1.0698  0.9825
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+0.193wanna-0.191ur+0.183shit-0.182negemoti-0.179tea...
+  mean                                                                -0.0175  0.0167
+  std. dev.                                                            1.0794  0.9714
+  weight sum                                                             1848    1926
+  precision                                                            0.0046  0.0046
+
+0.231perfect+0.215spring+0.208cry-0.206nice+0.188give...
+  mean                                                                -0.0432  0.0419
+  std. dev.                                                            0.9777  1.0644
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+-0.222wow+0.197worst-0.188ass+0.177ive+0.175thursday...
+  mean                                                                 0.0207 -0.0191
+  std. dev.                                                            1.0952  0.9478
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+-0.221tea+0.207tired+0.183tweet-0.174home-0.168make...
+  mean                                                                 0.0065 -0.0056
+  std. dev.                                                            1.0439  0.9992
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+0.232feel+0.202depressed+0.19 big-0.17crying+0.169thing...
+  mean                                                                 0.0615 -0.0593
+  std. dev.                                                            1.0618  0.9714
+  weight sum                                                             1848    1926
+  precision                                                            0.0042  0.0042
+
+-0.221smiles+0.215holiday-0.193lovely-0.184music-0.171fun...
+  mean                                                                 0.0209 -0.0208
+  std. dev.                                                            0.9552  1.0713
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+-0.199rain+0.198house+0.188omg-0.186holiday-0.18end...
+  mean                                                                 0.0346 -0.0334
+  std. dev.                                                            1.0266  1.0028
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+-0.251life-0.184hair+0.179posemoti+0.174hate+0.169hope...
+  mean                                                                -0.0028  0.0021
+  std. dev.                                                            1.0151  1.0127
+  weight sum                                                             1848    1926
+  precision                                                            0.0038  0.0038
+
+0.224true+0.199soo+0.178music-0.175sleep+0.167fact...
+  mean                                                                 0.0594 -0.0561
+  std. dev.                                                            0.9614  1.0531
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+0.267angry+0.197music+0.196yay-0.193youre-0.179haha...
+  mean                                                                 -0.008  0.0075
+  std. dev.                                                            1.0535  0.9659
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+0.283joy-0.274boy-0.209fact-0.194find-0.167fun...
+  mean                                                                  0.019 -0.0184
+  std. dev.                                                            0.9684  1.0453
+  weight sum                                                             1848    1926
+  precision                                                            0.0055  0.0055
+
+-0.252made+0.218wow+0.194rain-0.19instagood+0.187wanna...
+  mean                                                                 0.0299 -0.0291
+  std. dev.                                                            1.0174  0.9981
+  weight sum                                                             1848    1926
+  precision                                                            0.0046  0.0046
+
+0.303god+0.215true-0.204twitter+0.185happiness-0.183happen...
+  mean                                                                -0.0037  0.0038
+  std. dev.                                                            1.0341  0.9783
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+0.363angry-0.222forever+0.219depressed-0.189anymore+0.178wait...
+  mean                                                                 0.0322 -0.0302
+  std. dev.                                                            1.0859  0.9215
+  weight sum                                                             1848    1926
+  precision                                                            0.0056  0.0056
+
+0.227holiday-0.205smh+0.198yay-0.173forever-0.172wait...
+  mean                                                                -0.0213  0.0213
+  std. dev.                                                            0.9117   1.082
+  weight sum                                                             1848    1926
+  precision                                                            0.0046  0.0046
+
+-0.258bath+0.249weekend-0.214sunshine+0.21 lot-0.186yay...
+  mean                                                                 0.0071 -0.0062
+  std. dev.                                                            0.8949  1.0935
+  weight sum                                                             1848    1926
+  precision                                                             0.005   0.005
+
+0.305big-0.264angry-0.196im+0.18 dead-0.173didnt...
+  mean                                                                -0.0069   0.006
+  std. dev.                                                            1.0944  0.9014
+  weight sum                                                             1848    1926
+  precision                                                            0.0051  0.0051
+
+-0.225cry+0.201friends-0.183yay-0.179youre+0.168find...
+  mean                                                                 0.0122  -0.011
+  std. dev.                                                            1.0254  0.9713
+  weight sum                                                             1848    1926
+  precision                                                            0.0039  0.0039
+
+-0.217dead+0.205finally+0.204phone+0.193days-0.18moment...
+  mean                                                                 0.0116 -0.0107
+  std. dev.                                                            1.0805  0.9105
+  weight sum                                                             1848    1926
+  precision                                                            0.0044  0.0044
+
+-0.28angry+0.202ill+0.201soo-0.179happiness-0.163true...
+  mean                                                                -0.0383  0.0376
+  std. dev.                                                            1.0263  0.9618
+  weight sum                                                             1848    1926
+  precision                                                            0.0048  0.0048
+
+-0.257spring+0.229haha+0.191ill+0.183time-0.171finally...
+  mean                                                                 0.0131 -0.0117
+  std. dev.                                                            0.9726  1.0129
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+-0.261finally+0.209cry-0.194dead-0.171boyfriend-0.169ill...
+  mean                                                                -0.0219  0.0207
+  std. dev.                                                            1.0226  0.9627
+  weight sum                                                             1848    1926
+  precision                                                            0.0039  0.0039
+
+-0.26boy-0.181today+0.178hour+0.172tonight-0.16wow...
+  mean                                                                -0.0182  0.0171
+  std. dev.                                                            1.0243  0.9582
+  weight sum                                                             1848    1926
+  precision                                                            0.0042  0.0042
+
+-0.228cool+0.21 wanna-0.186finally+0.182happiness+0.174world...
+  mean                                                                 0.0127 -0.0123
+  std. dev.                                                            1.0161  0.9657
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+-0.266awesome-0.234bath+0.224find-0.207hate-0.198ive...
+  mean                                                                -0.0167  0.0155
+  std. dev.                                                            0.9441  1.0241
+  weight sum                                                             1848    1926
+  precision                                                             0.005   0.005
+
+-0.299back-0.233sleep+0.193today+0.19 cry+0.188hate...
+  mean                                                                 0.0076 -0.0065
+  std. dev.                                                            1.0316  0.9376
+  weight sum                                                             1848    1926
+  precision                                                            0.0041  0.0041
+
+-0.204moment-0.189shit+0.181joy+0.176house+0.172time...
+  mean                                                                -0.0161  0.0153
+  std. dev.                                                            0.9555    1.01
+  weight sum                                                             1848    1926
+  precision                                                            0.0041  0.0041
+
+-0.235cry+0.211perfect+0.194summer-0.19big-0.19smiling...
+  mean                                                                 0.0422 -0.0404
+  std. dev.                                                            0.9695  0.9952
+  weight sum                                                             1848    1926
+  precision                                                            0.0044  0.0044
+
+-0.23beautiful+0.206birthday-0.194joy+0.167weekend-0.163give...
+  mean                                                                -0.0203  0.0193
+  std. dev.                                                            0.9024  1.0506
+  weight sum                                                             1848    1926
+  precision                                                            0.0038  0.0038
+
+0.242miss-0.239cute+0.221crazy-0.188im+0.185show...
+  mean                                                                -0.0004  0.0001
+  std. dev.                                                            1.0291  0.9301
+  weight sum                                                             1848    1926
+  precision                                                            0.0039  0.0039
+
+0.264sick+0.243lol-0.177joy-0.176omg+0.175playing...
+  mean                                                                 0.0427 -0.0403
+  std. dev.                                                             1.014  0.9411
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+0.262didnt+0.23 havent-0.214fact-0.203angry+0.174day...
+  mean                                                                -0.0245  0.0233
+  std. dev.                                                            0.9918  0.9586
+  weight sum                                                             1848    1926
+  precision                                                            0.0044  0.0044
+
+-0.278pretty-0.25tea+0.204house+0.195spring+0.191week...
+  mean                                                                 0.0043 -0.0036
+  std. dev.                                                            0.9182  1.0267
+  weight sum                                                             1848    1926
+  precision                                                            0.0048  0.0048
+
+-0.218playing+0.216boy-0.2tea-0.175time+0.169ill...
+  mean                                                                -0.0345  0.0339
+  std. dev.                                                            0.9289  1.0117
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+0.247smiles+0.214early+0.204time-0.195joy+0.184sick...
+  mean                                                                  0.018 -0.0174
+  std. dev.                                                            0.9175  1.0209
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+0.278wrong-0.192true-0.18twitter-0.177posemoti-0.171find...
+  mean                                                                -0.0287  0.0282
+  std. dev.                                                             1.053   0.881
+  weight sum                                                             1848    1926
+  precision                                                            0.0056  0.0056
+
+0.202care+0.189make+0.176ive+0.176food-0.173early...
+  mean                                                                 0.0071 -0.0069
+  std. dev.                                                            0.9639  0.9721
+  weight sum                                                             1848    1926
+  precision                                                            0.0042  0.0042
+
+-0.216havent-0.196lovely+0.194smh-0.18great-0.179wrong...
+  mean                                                                 0.0153  -0.015
+  std. dev.                                                            0.9879  0.9471
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+-0.217cool+0.191guys+0.188face-0.185bath+0.165things...
+  mean                                                                 0.0131 -0.0117
+  std. dev.                                                            0.9109  1.0158
+  weight sum                                                             1848    1926
+  precision                                                             0.004   0.004
+
+0.277boyfriend-0.269watching-0.223spring+0.208year+0.192watch...
+  mean                                                                -0.0016  0.0023
+  std. dev.                                                            0.9217  1.0035
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+-0.236music-0.217tea+0.206tired+0.188smiling+0.182photo...
+  mean                                                                  0.015 -0.0149
+  std. dev.                                                            0.9389  0.9865
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+-0.203spring+0.182perfect-0.176family-0.172summer+0.17 life...
+  mean                                                                 0.0102 -0.0096
+  std. dev.                                                            0.9955  0.9289
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+0.25 smh-0.218phone+0.206depressed-0.201cool+0.191youre...
+  mean                                                                  0.014 -0.0137
+  std. dev.                                                            0.9679  0.9559
+  weight sum                                                             1848    1926
+  precision                                                             0.005   0.005
+
+-0.236depressed+0.2  doesnt+0.195care-0.188smh+0.175ass...
+  mean                                                                 0.0253 -0.0239
+  std. dev.                                                             1.038  0.8807
+  weight sum                                                             1848    1926
+  precision                                                            0.0048  0.0048
+
+-0.201posemoti-0.192bad-0.185spring+0.181cute+0.169wanna...
+  mean                                                                -0.0061  0.0055
+  std. dev.                                                            0.9268  0.9861
+  weight sum                                                             1848    1926
+  precision                                                            0.0039  0.0039
+
+-0.26birthday-0.221forever-0.213ppl-0.189weekend+0.187family...
+  mean                                                                -0.0112  0.0099
+  std. dev.                                                             0.929  0.9837
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+0.213photo-0.209explosion-0.185make+0.173crazy+0.166fact...
+  mean                                                                -0.0047  0.0048
+  std. dev.                                                            1.0252  0.8809
+  weight sum                                                             1848    1926
+  precision                                                            0.0042  0.0042
+
+-0.224didnt+0.189birthday+0.181feel+0.167beautiful-0.167nice...
+  mean                                                                -0.0337  0.0323
+  std. dev.                                                            0.9168  0.9833
+  weight sum                                                             1848    1926
+  precision                                                            0.0038  0.0038
+
+-0.252years-0.196dead+0.191end-0.187pretty-0.184youre...
+  mean                                                                 0.0353 -0.0347
+  std. dev.                                                             0.985  0.9154
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+-0.229made-0.186forever-0.175mad-0.174true+0.171finally...
+  mean                                                                -0.0226   0.022
+  std. dev.                                                            0.9384  0.9609
+  weight sum                                                             1848    1926
+  precision                                                            0.0037  0.0037
+
+-0.208back+0.189ive-0.178mad+0.172im+0.165tired...
+  mean                                                                 0.0015 -0.0018
+  std. dev.                                                            0.9373  0.9538
+  weight sum                                                             1848    1926
+  precision                                                            0.0041  0.0041
+
+-0.3thing+0.229smiling+0.193moment-0.171year-0.168find...
+  mean                                                                -0.0347   0.034
+  std. dev.                                                            0.9902  0.8956
+  weight sum                                                             1848    1926
+  precision                                                            0.0059  0.0059
+
+0.196hope+0.191crying+0.19 miss+0.189sun-0.189lovely...
+  mean                                                                 0.0107 -0.0103
+  std. dev.                                                            0.9573   0.927
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+-0.304instagood+0.222fun+0.209days+0.185friend-0.18havent...
+  mean                                                                -0.0003 -0.0005
+  std. dev.                                                            0.9014  0.9771
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+0.307wanna+0.193posemoti-0.187forever+0.18 weekend-0.176boy...
+  mean                                                                -0.0277  0.0267
+  std. dev.                                                            0.9134  0.9623
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+0.249yay-0.235long-0.219posemoti+0.214sweet+0.198hour...
+  mean                                                                 0.0147 -0.0132
+  std. dev.                                                             0.829  1.0297
+  weight sum                                                             1848    1926
+  precision                                                            0.0044  0.0044
+
+-0.237tweet+0.201shit-0.191guys-0.185playing+0.177friends...
+  mean                                                                 -0.001  0.0011
+  std. dev.                                                            0.9667   0.905
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+0.21 joy+0.192guys-0.192baby-0.176hurt+0.172anymore...
+  mean                                                                 0.0232 -0.0229
+  std. dev.                                                            0.9044   0.961
+  weight sum                                                             1848    1926
+  precision                                                            0.0042  0.0042
+
+-0.231days-0.207playing+0.197work+0.186crazy+0.186sleep...
+  mean                                                                 0.0235 -0.0224
+  std. dev.                                                            0.9358  0.9297
+  weight sum                                                             1848    1926
+  precision                                                            0.0038  0.0038
+
+0.18 hope-0.179smile-0.17make+0.16 shit+0.156maths...
+  mean                                                                 0.0008 -0.0009
+  std. dev.                                                             0.954  0.9065
+  weight sum                                                             1848    1926
+  precision                                                            0.0041  0.0041
+
+-0.206im-0.186wait+0.166years+0.157pretty-0.155wow...
+  mean                                                                 -0.006   0.006
+  std. dev.                                                            0.9225  0.9365
+  weight sum                                                             1848    1926
+  precision                                                            0.0035  0.0035
+
+0.238fun+0.184tired+0.181tonight+0.173sun+0.169soo...
+  mean                                                                  0.007 -0.0068
+  std. dev.                                                            0.9064  0.9453
+  weight sum                                                             1848    1926
+  precision                                                             0.004   0.004
+
+-0.228twitter+0.215tweet+0.207sunshine-0.199years-0.185smiling...
+  mean                                                                -0.0019  0.0015
+  std. dev.                                                            0.9505  0.8985
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+-0.223mad-0.208home+0.18 back+0.172sick-0.166things...
+  mean                                                                 0.0191 -0.0176
+  std. dev.                                                            0.9144  0.9323
+  weight sum                                                             1848    1926
+  precision                                                            0.0044  0.0044
+
+0.226news-0.222wait-0.198guys-0.18shit+0.168dont...
+  mean                                                                -0.0228  0.0221
+  std. dev.                                                            0.9412  0.9004
+  weight sum                                                             1848    1926
+  precision                                                            0.0041  0.0041
+
+-0.233peace-0.21fun+0.198happen+0.19 perfect-0.163didnt...
+  mean                                                                 0.0075 -0.0069
+  std. dev.                                                            0.8807  0.9545
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+-0.201ive-0.186food+0.181smh+0.18 great-0.168find...
+  mean                                                                -0.0155  0.0152
+  std. dev.                                                             0.917  0.9155
+  weight sum                                                             1848    1926
+  precision                                                            0.0039  0.0039
+
+-0.206mad+0.206dont+0.184smh-0.178shit+0.157ill...
+  mean                                                                 0.0367 -0.0357
+  std. dev.                                                            0.9834  0.8452
+  weight sum                                                             1848    1926
+  precision                                                            0.0041  0.0041
+
+-0.23soo-0.216explosion-0.195week-0.186friday+0.182tomorrow...
+  mean                                                                 0.0212 -0.0198
+  std. dev.                                                            0.8747  0.9499
+  weight sum                                                             1848    1926
+  precision                                                            0.0044  0.0044
+
+0.232anymore-0.193room-0.186lost+0.182live-0.177omg...
+  mean                                                                -0.0446  0.0426
+  std. dev.                                                            0.9623  0.8613
+  weight sum                                                             1848    1926
+  precision                                                            0.0041  0.0041
+
+-0.228care-0.195worst-0.184love-0.164enjoy+0.162give...
+  mean                                                                 0.0133 -0.0127
+  std. dev.                                                            0.9129  0.9098
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+-0.255hurt+0.227sick-0.197long+0.194god-0.184home...
+  mean                                                                 0.0027 -0.0022
+  std. dev.                                                            0.9376  0.8825
+  weight sum                                                             1848    1926
+  precision                                                            0.0054  0.0054
+
+0.36 maths-0.291proud+0.19 crying-0.189hurt-0.167doesnt...
+  mean                                                                -0.0087   0.009
+  std. dev.                                                            0.8837  0.9277
+  weight sum                                                             1848    1926
+  precision                                                            0.0068  0.0068
+
+0.227friends-0.218dont-0.215hour-0.168sun-0.164live...
+  mean                                                                 0.0246 -0.0231
+  std. dev.                                                            0.8769  0.9268
+  weight sum                                                             1848    1926
+  precision                                                            0.0038  0.0038
+
+-0.279party-0.257feel+0.171peace-0.167gonna+0.163rain...
+  mean                                                                -0.0014   0.002
+  std. dev.                                                            0.8438  0.9543
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+0.23 hope-0.229peace+0.201room-0.179people-0.173amazing...
+  mean                                                                -0.0003 -0.0005
+  std. dev.                                                            0.9008  0.8939
+  weight sum                                                             1848    1926
+  precision                                                            0.0042  0.0042
+
+0.216hot-0.187bed+0.184holiday+0.174rain-0.169mood...
+  mean                                                                 0.0155 -0.0154
+  std. dev.                                                             0.864  0.9232
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+-0.233worst-0.226tomorrow+0.197feeling+0.195maths+0.191doesnt...
+  mean                                                                -0.0137  0.0134
+  std. dev.                                                            0.8539  0.9295
+  weight sum                                                             1848    1926
+  precision                                                            0.0047  0.0047
+
+0.194person-0.184smile+0.18 bad+0.177enjoy+0.17 week...
+  mean                                                                -0.0097  0.0097
+  std. dev.                                                            0.8807  0.9027
+  weight sum                                                             1848    1926
+  precision                                                            0.0038  0.0038
+
+-0.199sleep+0.168tonight-0.163show+0.162time-0.161hair...
+  mean                                                                 0.0108 -0.0099
+  std. dev.                                                            0.8194  0.9522
+  weight sum                                                             1848    1926
+  precision                                                            0.0042  0.0042
+
+-0.255proud+0.239maths+0.221hair+0.173girls-0.157ass...
+  mean                                                                 0.0119 -0.0109
+  std. dev.                                                             0.857  0.9162
+  weight sum                                                             1848    1926
+  precision                                                            0.0052  0.0052
+
+0.22 worst-0.193bed-0.192feeling+0.19 lonely-0.181dont...
+  mean                                                                 0.0164  -0.016
+  std. dev.                                                            0.9172  0.8532
+  weight sum                                                             1848    1926
+  precision                                                            0.0043  0.0043
+
+0.224bad+0.22 hot-0.215thursday-0.208party+0.203baby...
+  mean                                                                 0.0138 -0.0134
+  std. dev.                                                            0.8445  0.9211
+  weight sum                                                             1848    1926
+  precision                                                             0.005   0.005
+
+-0.275early-0.233family+0.209happy+0.184talk-0.18party...
+  mean                                                                -0.0053  0.0059
+  std. dev.                                                            0.8502   0.913
+  weight sum                                                             1848    1926
+  precision                                                            0.0048  0.0048
+
+-0.237cute+0.228birthday+0.187pain-0.183happy+0.166blessed...
+  mean                                                                -0.0247  0.0233
+  std. dev.                                                            0.8268  0.9276
+  weight sum                                                             1848    1926
+  precision                                                            0.0037  0.0037
+
+0.282feeling+0.215sad+0.206proud-0.174maths+0.161hurt...
+  mean                                                                 0.0132 -0.0131
+  std. dev.                                                            0.8927  0.8664
+  weight sum                                                             1848    1926
+  precision                                                            0.0041  0.0041
+
+0.396school-0.248morning-0.234moment+0.19 awesome+0.161work...
+  mean                                                                 0.0245 -0.0231
+  std. dev.                                                            0.8638  0.8888
+  weight sum                                                             1848    1926
+  precision                                                            0.0046  0.0046
+
+-0.259work+0.199long+0.18 dead+0.177doesnt-0.173friend...
+  mean                                                                 0.0001  0.0005
+  std. dev.                                                            0.8793  0.8729
+  weight sum                                                             1848    1926
+  precision                                                            0.0036  0.0036
+
+0.241friday-0.237tomorrow-0.209summer+0.204gonna-0.193hair...
+  mean                                                                 0.0161 -0.0161
+  std. dev.                                                            0.8929  0.8495
+  weight sum                                                             1848    1926
+  precision                                                            0.0049  0.0049
+
+-0.245ppl+0.209show-0.206amazing+0.191feel+0.163girl...
+  mean                                                                 0.0197 -0.0184
+  std. dev.                                                            0.9515  0.7807
+  weight sum                                                             1848    1926
+  precision                                                            0.0056  0.0056
+
+-0.289lonely+0.279sad-0.216funny-0.204dont+0.193people...
+  mean                                                                 0.0288 -0.0283
+  std. dev.                                                            0.9636  0.7593
+  weight sum                                                             1848    1926
+  precision                                                            0.0051  0.0051
+
+0.213things-0.209negemoti+0.19 perfect-0.181thankful-0.181makes...
+  mean                                                                  0.001 -0.0015
+  std. dev.                                                             0.846  0.8801
+  weight sum                                                             1848    1926
+  precision                                                            0.0045  0.0045
+
+0.388smile-0.285friend+0.201funny+0.201person-0.179nice...
+  mean                                                                -0.0227  0.0226
+  std. dev.                                                            0.7843  0.9239
+  weight sum                                                             1848    1926
+  precision                                                            0.0044  0.0044
+
+
+
+Time taken to build model: 3.07 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2558               67.7795 %
+Incorrectly Classified Instances      1216               32.2205 %
+Kappa statistic                          0.3521
+Mean absolute error                      0.3289
+Root mean squared error                  0.4991
+Relative absolute error                 65.8054 %
+Root relative squared error             99.8343 %
+Total Number of Instances             3774     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.548     0.197      0.727     0.548     0.625      0.768    Neg
+                 0.803     0.452      0.649     0.803     0.718      0.768    Pos
+Weighted Avg.    0.678     0.327      0.687     0.678     0.672      0.768
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1012  836 |    a = Neg
+  380 1546 |    b = Pos
+

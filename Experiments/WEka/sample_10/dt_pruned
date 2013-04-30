@@ -1,0 +1,85 @@
+=== Run information ===
+
+Scheme:weka.classifiers.trees.J48 -R -N 3 -Q 1 -M 5
+Relation:     Weka_compatible-weka.filters.supervised.instance.Resample-B1.0-S1-Z10.0-weka.filters.unsupervised.attribute.NominalToString-C1-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-T-I-N1-S-stemmerweka.core.stemmers.SnowballStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"
+Instances:    3774
+Attributes:   169
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+smile <= 0
+|   negemoti <= 0
+|   |   posemoti <= 0
+|   |   |   birthday <= 0
+|   |   |   |   finally <= 0
+|   |   |   |   |   bad <= 1.268847
+|   |   |   |   |   |   beautiful <= 0
+|   |   |   |   |   |   |   love <= 0
+|   |   |   |   |   |   |   |   great <= 1.584452
+|   |   |   |   |   |   |   |   |   dont <= 1.181033
+|   |   |   |   |   |   |   |   |   |   sad <= 0
+|   |   |   |   |   |   |   |   |   |   |   weekend <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   morning <= 1.304324
+|   |   |   |   |   |   |   |   |   |   |   |   |   feel <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   good <= 1.626018
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   happy <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   weather <= 1.762442
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   tomorrow <= 0: Neg (1609.0/722.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   tomorrow > 0: Pos (29.0/11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   weather > 1.762442: Neg (25.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   happy > 0: Pos (50.0/16.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   good > 1.626018
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   im <= 0: Pos (29.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   im > 0: Neg (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   feel > 0: Neg (35.0/6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   morning > 1.304324: Pos (35.0/8.0)
+|   |   |   |   |   |   |   |   |   |   |   weekend > 0: Pos (25.0/7.0)
+|   |   |   |   |   |   |   |   |   |   sad > 0: Neg (32.0/5.0)
+|   |   |   |   |   |   |   |   |   dont > 1.181033: Neg (52.0/7.0)
+|   |   |   |   |   |   |   |   great > 1.584452: Pos (25.0/2.0)
+|   |   |   |   |   |   |   love > 0: Pos (150.0/30.0)
+|   |   |   |   |   |   beautiful > 0: Pos (25.0/3.0)
+|   |   |   |   |   bad > 1.268847: Neg (25.0/1.0)
+|   |   |   |   finally > 0: Pos (25.0/2.0)
+|   |   |   birthday > 0: Pos (32.0/2.0)
+|   |   posemoti > 0: Pos (130.0/8.0)
+|   negemoti > 0: Neg (107.0/5.0)
+smile > 0: Pos (71.0/1.0)
+
+Number of Leaves  : 	20
+
+Size of the tree : 	39
+
+
+Time taken to build model: 4.8 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        2387               63.2485 %
+Incorrectly Classified Instances      1387               36.7515 %
+Kappa statistic                          0.273 
+Mean absolute error                      0.4115
+Root mean squared error                  0.459 
+Relative absolute error                 82.3362 %
+Root relative squared error             91.8136 %
+Total Number of Instances             3774     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.91      0.633      0.579     0.91      0.708      0.699    Neg
+                 0.367     0.09       0.809     0.367     0.504      0.699    Pos
+Weighted Avg.    0.632     0.356      0.696     0.632     0.604      0.699
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1681  167 |    a = Neg
+ 1220  706 |    b = Pos
+
