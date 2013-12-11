@@ -8,8 +8,8 @@ These tweets are the analyzed and a classifier is made on it so as to predict wh
 
 The setup of this folder is as shown:
 > Code : This folder containt he scripts written including the ones used for Collecting the tweets, preprocessing the tweets and the ones used for Classifying the tweets. It also holds the various stages of the data.
-> Experiments: These are the raw Results files obtained by performing experiments on the data in WEka, CLUTO and Python. They have Performance measures by using different methods.
->Report: This folder holds the final report and submitted presentation.
+> Experiments: These are the raw Results files obtained by performing experiments on the data in WEka, CLUTO and Python. They have Performance measures and intermediate scripts written to get initial insights form the data.
+> Report: This folder holds the final report and submitted presentation.
 > Scrap_scripts: These are the experimentation files which were written in the process of fininshing the project. 
 
 More information can be found inside each folder.
